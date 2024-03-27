@@ -4,6 +4,6 @@ const path = require("path");
 
 const productsRoutes = require("./products.routes.js");
 
-routes.use("/", productsRoutes);
+routes.use("/products", productsRoutes);
 
 module.exports = routes;

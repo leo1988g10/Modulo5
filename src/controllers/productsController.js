@@ -1,5 +1,5 @@
-const productos = require("../models/products.js");
 const path = require("path");
+const productos = require("../models/products.js");
 
 const productsController = {
     getAll: (req, res) => res.render("index", {products: productos.getAll()}),
